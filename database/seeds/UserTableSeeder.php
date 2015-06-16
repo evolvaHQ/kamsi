@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class WordTableSeeder extends Seeder
+class UserTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,7 +11,6 @@ class WordTableSeeder extends Seeder
      */
     public function run()
     {
-        //
-        factory('App\Word', 200)->create();
+        factory('App\User', 50)->create();
     }
 }

@@ -28,8 +28,8 @@
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="#" class="waves-effect waves-light"><i class="mdi-action-search"></i></a></li>
-                <li><a href="#" class="waves-effect waves-light">Register</a></li>
-                <li><a href="#" class="waves-effect waves-light">Login</a></li>
+                <li><a href="/auth/register" class="waves-effect waves-light">Register</a></li>
+                <li><a href="/auth/login" class="waves-effect waves-light">Login</a></li>
             </ul>
             <ul class="side-nav" id="mobile-demo">
                 <li><a href="#" class="waves-effect waves-light"><i class="mdi-action-search"></i></a></li>
