@@ -53,6 +53,7 @@
 
 <!-- Scripts -->
 <script src="{{URL::asset('frontend/js/materialize.min.js')}}"></script>
+<script src="{{URL::asset('/js/vue.min.js')}}"></script>
 <script src="{{URL::asset('frontend/js/app.js')}}"></script>
 </body>
 </html>
