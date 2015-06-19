@@ -12,10 +12,15 @@
 */
 
 Route::get('/', function () {
-	return view('home');
+    return view('home');
 });
 Route::get('home', function () {
-	return "You are logged in, son!";
+    return view('words.index');
+});
+Route::group(['prefix' => 'words'], function () {
+    Route::get('/', 'WordController@index');
+    Route::post('/', 'WordController@create');
+    Route::get('/{id}', 'WordController@show');
 });
 // Authentication routes...
 Route::get('auth/login', 'Auth\AuthController@getLogin');
