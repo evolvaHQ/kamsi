@@ -33,12 +33,7 @@ class WordController extends Controller
      */
     public function create()
     {
-        $data = Input::all();
-        $word = Word::create($data);
-        $response['message'] = 'Word saved';
-        $response['word'] = $word;
-
-        return Response::json($response);
+        return 'create view';
     }
 
     /**
@@ -48,7 +43,12 @@ class WordController extends Controller
      */
     public function store()
     {
-        //
+        $data = Input::all();
+        $word = Word::create($data);
+        $response['message'] = 'Word saved';
+        $response['word'] = $word;
+
+        return Response::json($response);
     }
 
     /**

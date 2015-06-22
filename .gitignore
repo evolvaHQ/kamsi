@@ -5,6 +5,7 @@ composer.phar
 composer.lock
 npm-debug.log
 .idea/
+.phpintel/
 workbench/*
 
 /bootstrap/compiled.php
